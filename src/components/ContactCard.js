@@ -3,10 +3,13 @@ import "./ContactCard.css";
 const ContactCard = ({ name, mobile }) => {
   return (
     <>
-      <div className="contact-card">
+    <div className="scroll">
+    <div className="contact-card">
         <h1>{name}</h1>
         <span>{mobile}</span>
       </div>
+    </div>
+      
     </>
   );
 };

@@ -5,4 +5,7 @@
   margin: 10px;
   border-radius: 5px;
   box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.2);
+  display:block;
+  margin : 30px auto;
+  background-color: #fff;
 }
